@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  .font-graffiti-sedgwick {
+    font-family: 'Sedgwick Ave', cursive;
+  }
+  .font-graffiti-marker {
+    font-family: 'Permanent Marker', cursive;
+  }
+  .font-graffiti-rock {
+    font-family: 'Rock Salt', cursive;
+  }
+  .font-aesthetic-script {
+    font-family: 'Kaushan Script', cursive;
+  }
+  .font-aesthetic-caveat {
+    font-family: 'Caveat', cursive;
+  }
+  .font-serif-luxury {
+    font-family: 'Bodoni Moda', serif;
+  }
+  .font-serif-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-serif-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-sans-clean {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Print specific stylesheet for sticker sheet printing */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-sheet-page {
+    page-break-after: always;
+    break-after: page;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 8mm !important;
+  }
+}

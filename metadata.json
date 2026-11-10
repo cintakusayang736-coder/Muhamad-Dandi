@@ -1,0 +1,8 @@
+{
+  "name": "Remix LifeStruggel Perfume Sticker Studio (80 Desain)",
+  "description": "Generator dan cetak 80 stiker parfum premium LifeStruggel dengan 10 aroma pilihan dan 8 varian ukuran ML, font estetik grafiti, dan layout siap cetak A4.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
